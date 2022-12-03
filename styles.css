@@ -1,0 +1,189 @@
+h1{ 
+    font-size: 30px; 
+    font-family:Helvetica, sans-serif;
+ } 
+ h2{ 
+    font-size: 20px; 
+    font-family:Helvetica, sans-serif; 
+ } 
+nav.top-nav{
+    background-color: #294F6D;
+    position: fixed;
+    color: #CAD2D9;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+nav [aria-current=page]{
+    background-color: #496D89;
+    color: #CAD2D9;
+    border-bottom: .25em solid rgb(8, 8, 8);
+}
+body{
+    background-color: #496D89;
+}
+main{
+    margin-top: 80px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #63809A;
+    border-radius: 25px;
+}
+nav.top-nav li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+nav.top-nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav.top-nav .pulldown-menu li{
+    display: block;
+}
+nav.top-nav .pulldown-menu{
+    display: none;
+    position: absolute;
+    border: 1px solid #072842;
+    background-color: #294F6D;
+}
+nav.top-nav li:hover .pulldown-menu{
+    display: block;
+}
+
+p{
+    text-align: left;
+    font-size: 17px;
+}
+
+a{
+    color: #CAD2D9;
+    text-decoration: none;
+}
+
+.picture{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.logo{
+    width: 30px;
+    height: 24px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact{
+    list-style: none;
+}
+
+.contact li{
+    text-align: left;
+    font-family:Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+p.contact-header{
+    color: #CAD2D9;
+    text-align: center;
+    font-size: 30px;
+    font-family:Helvetica, sans-serif;
+    margin-left: -30px;
+}
+
+
+.personal-info{
+    background-color: #A9BBCB;
+    border-radius: 25px;
+    padding: 25px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Helvetica, sans-serif;
+}
+.personal-info li{
+    width: 700px;
+    font-size: 17px;
+}
+
+.personal-info, .project-list{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.about-me, .projects-contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-header{
+    color: #CAD2D9;
+    text-align: center;
+    font-size: 30px;
+    font-family:Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.project{
+    background-color: #A9BBCB;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.project-photo{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: #496D89 2px solid;
+}
+
+.project-name{
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+[role=link] {
+    text-decoration: underline; 
+}
+
+.read-more{
+    border-radius: 25px;
+    background-color: #496D89;
+    padding: 10px;
+    width: 100px;
+}
+
+.resume-pdf{
+    border: #496D89 4px solid;
+}
